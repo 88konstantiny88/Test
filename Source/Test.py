@@ -4,11 +4,13 @@ Created on 24 черв. 2016
 @author: koss
 '''
 
+#   tuple example 
+
+hh = ("hello", "hello2", "hello3");
 
 def printAllStrings():
-    print("hello");
-    print ("hello2");
-    print ("hello3");  
+    for index, i in enumerate(hh):
+        print(hh[index]);
     
     
     
