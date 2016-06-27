@@ -19,9 +19,9 @@ hh = (a,b,c);
 
 
 
-# def getAddr(value):
-#     addr = (socket.gethostbyname(value));
-#     return addr;
+def getAddr(value):
+    addr = (socket.gethostbyname(value));
+    return addr;
 
 
 
@@ -45,6 +45,6 @@ def letterCount(text, letters = string.ascii_letters):
     
 printAllStrings(b);
 print(letterCount("Maggie and Hopey"));
-# print(getAddr("google.ua"));
-# print(getAddr("google.com"));
-# print(getAddr("4pda.ru"));    
+print(getAddr("google.ua"));
+print(getAddr("google.com"));
+print(getAddr("4pda.ru"));    
