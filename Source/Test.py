@@ -38,13 +38,13 @@ def letterCount(text, letters = string.ascii_letters):
     count = 0;
     for char in text:
         if char in letters:
-                count +=1 ;
-        return count;
+                count += 1 ;
+    return count;
 
     
     
 printAllStrings(b);
-print(letterCount("Maggie and Hopey"));
+print(letterCount("fuck"));
 print(getAddr("google.ua"));
 print(getAddr("google.com"));
 print(getAddr("4pda.ru"));    
