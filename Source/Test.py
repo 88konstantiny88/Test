@@ -8,9 +8,15 @@ Created on 24 черв. 2016
 
 hh = ("hello", "hello2", "hello3");
 
+# def printAllStrings():
+#     for index, i in enumerate(hh):
+#         print(str(index) + " " + hh[index]);
+
+
 def printAllStrings():
-    for index, i in enumerate(hh):
-        print(hh[index]);
+    for i in enumerate(hh):
+        print(hh);
+    
     
     
     
